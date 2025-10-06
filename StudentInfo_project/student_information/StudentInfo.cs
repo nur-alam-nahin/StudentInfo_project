@@ -12,10 +12,10 @@ namespace StudentInfo_project.student_information
         public string _FirstName;
         public string _lastName;
         public string _dept;
-        public int _session;
+        public string _session;
         public char _section;
         public string _gender;
-        public long _phoneNumber;
+        public int _phoneNumber;
         public string _email;
     }
 }
