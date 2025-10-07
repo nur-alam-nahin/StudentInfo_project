@@ -50,22 +50,22 @@ namespace StudentInfo_project
                             Console.Write("Enter First Name = ");
                             _studentFirstName = Console.ReadLine();
 
-                            Console.Write("Enter First Name = ");
+                            Console.Write("Enter Last Name = ");
                             _studentLastName = Console.ReadLine();
 
-                            Console.Write("Enter First Name = ");
+                            Console.Write("Enter department = ");
                             _department = Console.ReadLine();
 
-                            Console.Write("Enter First Name = ");
+                            Console.Write("Enter session = ");
                             _session = Console.ReadLine();
 
-                            Console.Write("Enter First Name = ");
+                            Console.Write("Enter section = ");
                             _section = Convert.ToChar(Console.ReadLine());
 
-                            Console.Write("Enter First Name = ");
+                            Console.Write("Enter gender = ");
                             _gender = Console.ReadLine();
 
-                            Console.Write("Enter First Name = ");
+                            Console.Write("Enter phone number = ");
                             _phoneNumber = Convert.ToInt32(Console.ReadLine());
 
                             Console.Write("Enter Email = ");
@@ -98,7 +98,7 @@ namespace StudentInfo_project
                             {
                                 Console.WriteLine();
                                 Console.WriteLine("----Search menu----");
-                                Console.WriteLine("1. search Id");
+                                Console.WriteLine("1. Search Id");
                                 Console.WriteLine("2. Search Name");
                                 Console.WriteLine("3. Exit");
 
@@ -122,15 +122,15 @@ namespace StudentInfo_project
                                                 Console.WriteLine();
                                                 Console.WriteLine("----result----");
                                                 Console.WriteLine();
-                                                Console.WriteLine($"student id = {item._id}");
-                                                Console.WriteLine($"student First name = {item._FirstName}");
-                                                Console.WriteLine($"student Last name = {item._lastName}");
-                                                Console.WriteLine($"student Last name = {item._dept}");
-                                                Console.WriteLine($"student Last name = {item._session}");
-                                                Console.WriteLine($"student Last name = {item._section}");
-                                                Console.WriteLine($"student Last name = {item._gender}");
-                                                Console.WriteLine($"student Last name = {item._phoneNumber}");
-                                                Console.WriteLine($"student email = {item._email}");
+                                                Console.WriteLine($"Student id = {item._id}");
+                                                Console.WriteLine($"Student First name = {item._FirstName}");
+                                                Console.WriteLine($"Student Last name = {item._lastName}");
+                                                Console.WriteLine($"Department = {item._dept}");
+                                                Console.WriteLine($"Session = {item._session}");
+                                                Console.WriteLine($"Section = {item._section}");
+                                                Console.WriteLine($"Gender = {item._gender}");
+                                                Console.WriteLine($"Phone number = {item._phoneNumber}");
+                                                Console.WriteLine($"Student email = {item._email}");
 
 
 
@@ -162,15 +162,15 @@ namespace StudentInfo_project
                                                 Console.WriteLine();
                                                 Console.WriteLine("----result----");
                                                 Console.WriteLine();
-                                                Console.WriteLine($"student id = {item._id}");
-                                                Console.WriteLine($"student First name = {item._FirstName}");
-                                                Console.WriteLine($"student Last name = {item._lastName}");
-                                                Console.WriteLine($"student Last name = {item._dept}");
-                                                Console.WriteLine($"student Last name = {item._session}");
-                                                Console.WriteLine($"student Last name = {item._section}");
-                                                Console.WriteLine($"student Last name = {item._gender}");
-                                                Console.WriteLine($"student Last name = {item._phoneNumber}");
-                                                Console.WriteLine($"student email = {item._email}");
+                                                Console.WriteLine($"Student id = {item._id}");
+                                                Console.WriteLine($"Student First name = {item._FirstName}");
+                                                Console.WriteLine($"Student Last name = {item._lastName}");
+                                                Console.WriteLine($"Department = {item._dept}");
+                                                Console.WriteLine($"Session = {item._session}");
+                                                Console.WriteLine($"Section = {item._section}");
+                                                Console.WriteLine($"Gender = {item._gender}");
+                                                Console.WriteLine($"Phone number = {item._phoneNumber}");
+                                                Console.WriteLine($"Student email = {item._email}");
 
                                             }
 
@@ -198,15 +198,15 @@ namespace StudentInfo_project
                             {
                                 Console.WriteLine("----result----");
                                 Console.WriteLine();
-                                Console.WriteLine($"student id = {item._id}");
-                                Console.WriteLine($"student First name = {item._FirstName}");
-                                Console.WriteLine($"student Last name = {item._lastName}");
-                                Console.WriteLine($"student Last name = {item._dept}");
-                                Console.WriteLine($"student Last name = {item._session}");
-                                Console.WriteLine($"student Last name = {item._section}");
-                                Console.WriteLine($"student Last name = {item._gender}");
-                                Console.WriteLine($"student Last name = {item._phoneNumber}");
-                                Console.WriteLine($"student email = {item._email}");
+                                Console.WriteLine($"Student id = {item._id}");
+                                Console.WriteLine($"Student First name = {item._FirstName}");
+                                Console.WriteLine($"Student Last name = {item._lastName}");
+                                Console.WriteLine($"Department = {item._dept}");
+                                Console.WriteLine($"Session = {item._session}");
+                                Console.WriteLine($"Section = {item._section}");
+                                Console.WriteLine($"Gender = {item._gender}");
+                                Console.WriteLine($"Phone number = {item._phoneNumber}");
+                                Console.WriteLine($"Student email = {item._email}");
 
 
                                 Console.WriteLine();
